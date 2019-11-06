@@ -45,4 +45,4 @@ RUN echo "server {\n\
                 try_files \$uri \$uri/ /index.html;\n\
         }\n\
 }" > /etc/nginx/conf.d/ng-apps.conf
-COPY dist/ /app/
+COPY dist/my-app/ /app/
